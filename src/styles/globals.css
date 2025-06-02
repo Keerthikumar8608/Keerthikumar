@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-gradient-cyan {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-futuristic-cyan to-futuristic-magenta;
+  }
+
+  .animate-glow-soft {
+    animation: glow-soft 2s ease-in-out infinite;
+  }
+}
+
+@keyframes glow-soft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+} 
