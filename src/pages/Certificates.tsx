@@ -40,7 +40,7 @@ const Certificates = () => {
       description: "Earned certification as a SOLIDWORKS CAD Design Associate, demonstrating proficiency in 3D modeling, assemblies, part modifications, and engineering drawings. Gained hands-on experience with parametric design, design intent, and industry-standard CAD practices.",
       skills: ["3D Modeling & Assembly", "Parametric Design", "Engineering Documentation", "Design Intent Implementation"],
       level: "Associate",
-      image: "/CAD Design.jpg",
+      image: "./CAD Design.jpg",
       delay: 0.2
     },
     {
@@ -50,7 +50,7 @@ const Certificates = () => {
       description: "Officially certified by Dassault Systèmes upon successfully completing the SOLIDWORKS Additive Manufacturing Associate online academic exam through SOLIDWORKS Corp.",
       skills: ["Additive Manufacturing", "3D Printing Design", "Manufacturing Optimization", "Design for Manufacturing"],
       level: "Associate",
-      image: "/Additive Manufacturing.jpg",
+      image: "./Additive Manufacturing.jpg",
       delay: 0.4
     },
     {
@@ -60,7 +60,7 @@ const Certificates = () => {
       description: "Completed the SOLIDWORKS Sustainability Associate Certification by Dassault Systèmes, gaining knowledge in sustainable design and lifecycle assessment.",
       skills: ["Sustainable Design", "Lifecycle Assessment", "Environmental Impact Analysis", "Green Engineering"],
       level: "Associate",
-      image: "/Sustainability.jpg",
+      image: "./Sustainability.jpg",
       delay: 0.6
     }
   ];
@@ -73,7 +73,7 @@ const Certificates = () => {
       description: "Elite certification with 73% score (Assignments: 24.69/25, Exam: 48/75). Among 2952 certified candidates. Enhanced knowledge in product development, manufacturing processes, and design methodologies.",
       skills: ["Product Development", "Manufacturing Processes", "Design Strategy", "Industrial Engineering", "CAD/CAM"],
       level: "Elite",
-      image: "/Product Design.jpg",
+      image: "./Product Design.jpg",
       delay: 0.2
     },
     {
@@ -83,7 +83,7 @@ const Certificates = () => {
       description: "Elite Silver certification in emerging technologies and innovation ecosystems. Focused on leveraging technology for societal impact and industrial transformation.",
       skills: ["Industry 4.0", "Innovation Management", "Technology Integration", "Sustainable Development", "Social Impact"],
       level: "Elite Silver",
-      image: "/social.jpg",
+      image: "./social.jpg",
       delay: 0.4
     },
     {
@@ -93,7 +93,7 @@ const Certificates = () => {
       description: "Elite certification with 61% score (Assignments: 22.81/25, Exam: 38.25/75). Among 317 certified candidates. Focused on automation technologies and production management.",
       skills: ["Industrial Automation", "Production Planning", "System Integration", "Process Optimization", "Management Systems"],
       level: "Elite",
-      image: "/automation.jpg",
+      image: "./automation.jpg",
       delay: 0.6
     },
     {
@@ -103,7 +103,7 @@ const Certificates = () => {
       description: "Elite certification with 54% score (Assignments: 21.25/25, Exam: 33/75). Among 139 certified candidates. Studied advanced materials and processing techniques.",
       skills: ["Material Science", "Process Engineering", "Material Testing", "Manufacturing Technology", "Material Analysis"],
       level: "Elite",
-      image: "/advance materials.jpg",
+      image: "./advance materials.jpg",
       delay: 0.8
     },
     {
@@ -113,7 +113,7 @@ const Certificates = () => {
       description: "Foundation course in professional communication and workplace behavior. Enhanced interpersonal skills and business etiquette.",
       skills: ["Communication", "Professional Etiquette", "Team Collaboration", "Workplace Ethics"],
       level: "Foundation",
-      image: "/soft skill.jpg",
+      image: "./soft skill.jpg",
       delay: 1.0
     }
   ];
@@ -126,7 +126,7 @@ const Certificates = () => {
       description: "Awarded Second Prize at KALAM'24 Science Fair for the paper 'Sustainable Fuel Resources for Diverse Transportation Modes'. Presented research on sustainable transportation solutions to over 50 participants, demonstrating technical expertise and public speaking skills.",
       skills: ["Sustainable Technology", "Research Presentation", "Technical Writing", "Innovation in Transportation"],
       level: "Winner",
-      image: "/cert-1.jpg",
+      image: "./cert-1.jpg",
       delay: 0.2
     },
     {
@@ -136,7 +136,7 @@ const Certificates = () => {
       description: "Secured Third Place for paper presentation on 'BMW Telelever Suspension System' at Vahana V7 national symposium. Participated in hands-on workshops including CNG vehicle technology and reverse engineering of automotive components.",
       skills: ["Automotive Systems", "Technical Analysis", "Mechanical Design", "Vehicle Technology"],
       level: "Winner",
-      image: "/cert-2.jpg",
+      image: "./cert-2.jpg",
       delay: 0.4
     },
     {
@@ -146,7 +146,7 @@ const Certificates = () => {
       description: "Awarded 2nd Prize for Paper Presentation on the Dodge Challenger, recognized as the fastest production car ever made, demonstrating deep understanding of automotive engineering and performance vehicles.",
       skills: ["Performance Engineering", "Automotive Design", "Technical Documentation", "Engineering Analysis"],
       level: "Winner",
-      image: "/cert-3.jpg",
+      image: "./cert-3.jpg",
       delay: 0.6
     },
     {
@@ -156,7 +156,7 @@ const Certificates = () => {
       description: "Certified Participant in Geometric Dimensioning and Tolerancing Webinar, gaining insights into precision design and manufacturing principles.",
       skills: ["Precision Engineering", "Manufacturing Standards", "Technical Drawing", "Quality Control"],
       level: "Webinar",
-      image: "/cert-5.png",
+      image: "./cert-5.png",
       delay: 0.8
     }
   ];

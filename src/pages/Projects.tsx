@@ -93,7 +93,7 @@ const Projects = () => {
         "Acrylic Laser Cutting",
         "3D Printing"
       ],
-      image: "/reverse.jpeg",
+      image: "./reverse.jpeg",
       delay: 0.3,
       teamMembers: "Keerthi Kumar M (Team Lead) | Kajenthira S | Naveen Raja T",
       completion: "April 2024",
@@ -197,23 +197,23 @@ const Projects = () => {
         "6061-T6 Aluminum",
         "Structural Analysis"
       ],
-      image: "/p1.png",
+      image: "./p1.png",
       delay: 0.2,
       projectImages: [
         {
-          url: "/p1.png",
+          url: "./p1.png",
           caption: "Ferrari 812 Superfast Rim - Main Render"
         },
         {
-          url: "/p2.png",
+          url: "./p2.png",
           caption: "Structural Analysis - Von Mises Stress Distribution"
         },
         {
-          url: "/p3.png",
+          url: "./p3.png",
           caption: "Deformation Analysis Results"
         },
         {
-          url: "/p4.png",
+          url: "./p4.png",
           caption: "Design Evolution and Optimization Process"
         }
       ]

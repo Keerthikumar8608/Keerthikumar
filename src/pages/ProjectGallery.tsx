@@ -5,10 +5,10 @@ const ProjectGallery = () => {
   const collegeProjects = [
     {
       title: "5-Axis Robotic Arm – Prototype Development",
-      coverImage: "/r2.png",
+      coverImage: "./r2.png",
       images: [
         {
-          url: "/r2.png",
+          url: "./r2.png",
           caption: "5-Axis Robotic Arm Design"
         }
       ]
