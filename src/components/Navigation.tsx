@@ -10,7 +10,6 @@ const Navigation = () => {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "Projects", path: "/projects" },
-    { name: "Project Gallery", path: "/project-gallery" },
     { name: "Experiences", path: "/experiences" },
     { name: "Certificates", path: "/certificates" },
     { name: "Contact", path: "/contact" },

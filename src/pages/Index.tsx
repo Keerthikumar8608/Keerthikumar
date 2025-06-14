@@ -28,22 +28,19 @@ const Index = () => {
     {
       year: "2022-2026",
       degree: "B.E. Mechanical Engineering",
-      institution: "National Engineering College",
-      grade: "CGPA: 7.5/10",
+      grade: "National Engineering College",
       delay: 0.3
     },
     {
       year: "2020-2022",
       degree: "Higher Secondary Education",
-      institution: "Kalaimagal Vidhya Mandhir Matric Hr Sec School",
-      grade: "Percentage: 70%",
+      grade: "Kalaimagal Vidhya Mandhir Matric Hr Sec School",
       delay: 0.5
     },
     {
       year: "2019-2020",
       degree: "SSLC",
-      institution: "Kalaimagal Vidhya Mandhir Matric Hr Sec School",
-      grade: "Percentage: 65%",
+      grade: "Kalaimagal Vidhya Mandhir Matric Hr Sec School",
       delay: 0.7
     }
   ];
@@ -51,7 +48,7 @@ const Index = () => {
   const handlePortfolioDownload = () => {
     // Create a temporary link element to trigger download
     const link = document.createElement('a');
-    link.href = '/portfolio.pdf'; // You'll need to add this file to your public folder
+    link.href = './portfolio.pdf'; // Updated to relative path
     link.download = 'Keerthi_Kumar_M_Design_Portfolio.pdf';
     document.body.appendChild(link);
     link.click();
@@ -131,7 +128,7 @@ const Index = () => {
                   className="w-48 h-48 md:w-64 md:h-64 mx-auto mb-6 md:mb-8 rounded-full overflow-hidden border-4 border-futuristic-cyan animate-glow-cyan"
                 >
                   <img 
-                    src="/keerthi.jpg" 
+                    src="./keerthi.jpg" 
                     alt="Profile" 
                     className="w-full h-full object-cover" 
                   />
